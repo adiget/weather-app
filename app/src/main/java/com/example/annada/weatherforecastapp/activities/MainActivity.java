@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
 
     void getWeatherForecast(String city){
-        WeatherService.getAPI().getWeatherForecast(city, lang, new Callback<WeatherForecast>() {
+        WeatherService.getAPI().getWeatherForecast(city, new Callback<WeatherForecast>() {
             @Override
             public void success(WeatherForecast weatherForecastData, Response response) {
                 makeForecastRequiredModel(weatherForecastData);

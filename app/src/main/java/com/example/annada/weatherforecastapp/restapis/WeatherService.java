@@ -40,8 +40,8 @@ public class WeatherService {
 
                         @Override
                         public void afterCall(RequestInformation requestInfo, long elapsedTime, int statusCode, Object beforeCallData) {
-                            Log.d("Retrofit Profiler", String.format("HTTP %d %s %s (%dms)",
-                                    statusCode, requestInfo.getMethod(), requestInfo.getRelativePath(), elapsedTime));
+//                            Log.d("Retrofit Profiler", String.format("HTTP %d %s %s (%dms)",
+//                                    statusCode, requestInfo.getMethod(), requestInfo.getRelativePath(), elapsedTime));
                         }
                     })
                     .setErrorHandler(new ErrorHandler() {
