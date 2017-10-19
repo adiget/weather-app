@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="splash_msg">Loading…</string>
+    <string name="city_country">London, UK</string>
+    <string name="date_today">Wednesday, 18 October</string>
+    <string name="current_temperature">26</string>
+    <string name="weather_information">Partly Cloud</string>
+    <string name="wind">WIND</string>
+    <string name="wind_speed">18 km/h</string>
+    <string name="humidity">HUMIDITY</string>
+    <string name="humidity_rate">52%</string>
+    <string name="day_of_week">Wed</string>
+    <string name="permission_notice">This permission is important but you can as well set your location on Location page</string>
+</resources>
