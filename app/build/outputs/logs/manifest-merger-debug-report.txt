@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:9:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/annada/.android/build-cache/66e2850e94b7c937cfeed78b26ff73bf05f0bc8a/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/annada/.android/build-cache/a22349de923670d421d65d9af378d3c0d1582d12/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/annada/.android/build-cache/f3a352fa1c16d69bd2dadf25e41f5f88dd356bd4/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/annada/.android/build-cache/dd3c03e69dcbd10ed0208962394e513e778f02b6/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/annada/.android/build-cache/b636945ccb8afef4e84fa01f4623743d480b4062/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/annada/.android/build-cache/f77892fd6f923a81facaafe385b1909fee52690e/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/annada/.android/build-cache/144cd3cd868868ccdd8934ee5caf55500bdd9a13/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/annada/.android/build-cache/f3c61093d1465b18b408bb43da7f5796b9723a82/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/annada/.android/build-cache/f0861940268696053f439af5c933fcde2973eb01/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/annada/.android/build-cache/c0ff27900e922bfab05e6efd571ecc1610e4909a/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/annada/.android/build-cache/f02d451255a1a254da5d12624de324b303a508a2/output/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:12:9-42
+	android:theme
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:10:9-43
+activity#com.example.annada.weatherforecastapp.activities.MainActivity
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:16:9-23:20
+	android:theme
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:16:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.example.annada.weatherforecastapp.activities.SplashActivity
+ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:24:9-25:51
+	android:theme
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:24:19-60
+uses-sdk
+INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] /Users/annada/.android/build-cache/66e2850e94b7c937cfeed78b26ff73bf05f0bc8a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/annada/.android/build-cache/a22349de923670d421d65d9af378d3c0d1582d12/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/annada/.android/build-cache/f3a352fa1c16d69bd2dadf25e41f5f88dd356bd4/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/annada/.android/build-cache/dd3c03e69dcbd10ed0208962394e513e778f02b6/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/annada/.android/build-cache/b636945ccb8afef4e84fa01f4623743d480b4062/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/annada/.android/build-cache/f77892fd6f923a81facaafe385b1909fee52690e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/annada/.android/build-cache/144cd3cd868868ccdd8934ee5caf55500bdd9a13/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/annada/.android/build-cache/f3c61093d1465b18b408bb43da7f5796b9723a82/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/annada/.android/build-cache/f0861940268696053f439af5c933fcde2973eb01/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.github.pavlospt:circleview:1.3] /Users/annada/.android/build-cache/ae4d06e23158928141cb96f0d11d6ba271b8af4d/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.6.0] /Users/annada/.android/build-cache/4b28cb7e082b8e26fbf8e8ea13810eaf4078fc12/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-compat:26.1.0] /Users/annada/.android/build-cache/c0ff27900e922bfab05e6efd571ecc1610e4909a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/annada/.android/build-cache/f02d451255a1a254da5d12624de324b303a508a2/output/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/annada/.android/build-cache/29a57a247bfce026eddd099c31e2340437987a3f/output/AndroidManifest.xml:19:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/annada/.android/build-cache/66e2850e94b7c937cfeed78b26ff73bf05f0bc8a/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/annada/.android/build-cache/a22349de923670d421d65d9af378d3c0d1582d12/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/annada/.android/build-cache/f3a352fa1c16d69bd2dadf25e41f5f88dd356bd4/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/annada/.android/build-cache/dd3c03e69dcbd10ed0208962394e513e778f02b6/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/annada/.android/build-cache/b636945ccb8afef4e84fa01f4623743d480b4062/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/annada/.android/build-cache/f77892fd6f923a81facaafe385b1909fee52690e/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/annada/.android/build-cache/f3c61093d1465b18b408bb43da7f5796b9723a82/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/annada/.android/build-cache/f0861940268696053f439af5c933fcde2973eb01/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/annada/.android/build-cache/c0ff27900e922bfab05e6efd571ecc1610e4909a/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/annada/.android/build-cache/f02d451255a1a254da5d12624de324b303a508a2/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/annada/.android/build-cache/f02d451255a1a254da5d12624de324b303a508a2/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/annada/.android/build-cache/f02d451255a1a254da5d12624de324b303a508a2/output/AndroidManifest.xml:26:13-58
