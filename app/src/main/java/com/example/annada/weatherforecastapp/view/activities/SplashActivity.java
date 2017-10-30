@@ -1,4 +1,4 @@
-package com.example.annada.weatherforecastapp.activities;
+package com.example.annada.weatherforecastapp.view.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

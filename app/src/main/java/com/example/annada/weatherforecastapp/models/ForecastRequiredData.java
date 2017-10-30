@@ -1,4 +1,4 @@
-package com.example.annada.weatherforecastapp.model;
+package com.example.annada.weatherforecastapp.models;
 
 /**
  * Created by annada on 19/10/2017.

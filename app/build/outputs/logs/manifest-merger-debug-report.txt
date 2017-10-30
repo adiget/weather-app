@@ -51,12 +51,12 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/annada/.android/build-
 		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:15:9-40
 	android:name
 		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:10:9-43
-activity#com.example.annada.weatherforecastapp.activities.MainActivity
+activity#com.example.annada.weatherforecastapp.view.activities.MainActivity
 ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:16:9-23:20
 	android:theme
 		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:17:13-49
 	android:name
-		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:16:19-58
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:16:19-63
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
@@ -67,12 +67,12 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:21:27-74
-activity#com.example.annada.weatherforecastapp.activities.SplashActivity
+activity#com.example.annada.weatherforecastapp.view.activities.SplashActivity
 ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:24:9-25:51
 	android:theme
 		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:25:13-49
 	android:name
-		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:24:19-60
+		ADDED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml:24:19-65
 uses-sdk
 INJECTED from /Users/annada/personal/projects/weather-git/weather-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:21:5-23:78
@@ -89,7 +89,6 @@ MERGED from [com.github.pavlospt:circleview:1.3] /Users/annada/.android/build-ca
 MERGED from [com.jakewharton:butterknife:8.6.0] /Users/annada/.android/build-cache/4b28cb7e082b8e26fbf8e8ea13810eaf4078fc12/output/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-compat:26.1.0] /Users/annada/.android/build-cache/c0ff27900e922bfab05e6efd571ecc1610e4909a/output/AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/annada/.android/build-cache/f02d451255a1a254da5d12624de324b303a508a2/output/AndroidManifest.xml:20:5-22:41
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/annada/.android/build-cache/29a57a247bfce026eddd099c31e2340437987a3f/output/AndroidManifest.xml:19:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/annada/.android/build-cache/ca3d725489f94b58f6ac5428cfaf868e9d2a6079/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

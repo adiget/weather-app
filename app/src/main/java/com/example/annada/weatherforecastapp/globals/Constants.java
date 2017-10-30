@@ -9,13 +9,13 @@ public class Constants {
 
     public static final String SHARED_PREF = "weather_forecast_app";
 
-    public static final String BASE_URL = "http://api.openweathermap.org/data/2.5";
+    public static final String BASE_URL = "http://api.openweathermap.org/data/2.5/";
 
-    public static final String WEATHER_ENDPOINT = "/weather?";
+    public static final String WEATHER_ENDPOINT = "weather?";
 
-    public static final String WEATHER_FORECAST_ENDPOINT = "/forecast?";
+    public static final String WEATHER_FORECAST_ENDPOINT = "forecast?";
 
-    public static final String API_KEY = "66803dff437c08006bd49ee0a571dd45";
+    public static final String API_KEY = "YOUR_API_KEY";
 
     public static final String DEFAULT_CITY = "London, UK";
 

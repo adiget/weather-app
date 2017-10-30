@@ -1,8 +1,8 @@
 package com.example.annada.weatherforecastapp;
 
 import com.example.annada.weatherforecastapp.globals.Constants;
-import com.example.annada.weatherforecastapp.model.WeatherData;
-import com.example.annada.weatherforecastapp.model.WeatherForecast;
+import com.example.annada.weatherforecastapp.models.WeatherData;
+import com.example.annada.weatherforecastapp.models.WeatherForecast;
 import com.example.annada.weatherforecastapp.restapis.WeatherService;
 
 import org.junit.Test;
