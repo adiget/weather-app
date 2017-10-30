@@ -15,7 +15,7 @@ public class Constants {
 
     public static final String WEATHER_FORECAST_ENDPOINT = "/forecast?";
 
-    public static final String API_KEY = "66803dff437c08006bd49ee0a571dd45";
+    public static final String API_KEY = "YOUR_API_KEY";
 
     public static final String DEFAULT_CITY = "London, UK";
 
