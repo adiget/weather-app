@@ -17,8 +17,8 @@
         android:textColor="@color/colorWhite"/>
     <ImageView
         android:id="@+id/weather_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:contentDescription="@string/app_name"
         android:src="@drawable/small_weather_icon"
         android:layout_marginTop="4dp"

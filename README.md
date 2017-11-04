@@ -4,19 +4,18 @@ This app is a weather forecast app, which display today's weather along with the
 
 ### Build and Run:-
 1. Android Studio->Build->Build APK
-2. It will generate apk for all 3 platforms in app/build/output/apk folder
-3. On Terminal adb install <path>/*.apk
+2. On Terminal adb install <path>/*.apk
    Or send the apk to device by email, then click apk.
    Make sure device is internet connected.
-4. Run the app
-5. It will display current weather and forecast weather of the device location.
-6. API Calls
+3. Run the app
+4. It will display current weather and forecast weather of the device location.
+5. API Calls
 a) App finds the longitude and latitude of current location, and get the weather data.
   If failed to get the location data, it gets the weather from default city=London.
   
 b) From the weather data, it picks the city, and then call the forecast api to get the weather forecast data for that city.
 
-7. URL 
+6. URL
 http://api.openweathermap.org/data/2.5/weather?&APPID=<api_key>&units=metric&lat=51.6501929&lon=-0.1828601
 
 http://api.openweathermap.org/data/2.5/forecast?&APPID=<api_key>&units=metric&q=<city>
@@ -32,5 +31,7 @@ Verify the data with the app weather screen data.
 
 
 
-### What could be done with more time:-
-1. User selectable location, so that user can get weather data across globe.  
+### Framework:-
+1. Retrofit.
+2. MVP
+3. RxJava

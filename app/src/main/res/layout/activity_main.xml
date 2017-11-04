@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/swipe">
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,11 +17,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorBackground"
-    tools:context=".view.activities.MainActivity">
+    tools:context=".view.activities.MainActivity"
+    android:id="@+id/weather_layout">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="7"
+        android:layout_weight="6"
         android:orientation="vertical">
         <TextView
             android:id="@+id/city_country"
@@ -45,9 +58,9 @@
             android:layout_height="150dp"
             android:layout_marginTop="8dp"
             app:cv_titleSubtitleSpace="40"
-            app:cv_fillColor="@color/colorBackground"
+            app:cv_fillColor="@android:color/transparent"
             app:cv_strokeColorValue="@color/colorCircleStroke"
-            app:cv_backgroundColorValue="@color/colorCircleStroke"
+            app:cv_backgroundColorValue="@android:color/transparent"
             app:cv_titleColor="@color/colorWhite"
             app:cv_titleSize="50sp"
             app:cv_titleText="@string/current_temperature"
@@ -115,13 +128,10 @@
             android:layout_gravity="center"/>
     </LinearLayout>
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:background="@color/colorBottomBackground"
         android:orientation="vertical">
         <android.support.v7.widget.RecyclerView
             android:id="@+id/weather_daily_list"
@@ -132,3 +142,6 @@
             android:scrollbars="none"/>
     </LinearLayout>
 </LinearLayout>
+
+</ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>
