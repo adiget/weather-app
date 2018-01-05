@@ -22,6 +22,9 @@ http://api.openweathermap.org/data/2.5/weather?&APPID=<api_key>&units=metric&lat
 http://api.openweathermap.org/data/2.5/forecast?&APPID=<api_key>&units=metric&q=<city>
 
   
+### Google Play Store:
+
+https://play.google.com/store/apps/details?id=com.ags.annada.weatherforecastapp&hl=en 
   
 
 ### Test:-
